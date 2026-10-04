@@ -1,21 +1,11 @@
-# Atlanta Intelligence - Agente Local
+# ATOS - Agente Local (DESCONTINUADO)
 
-Executavel standalone (Windows) do agente local do Atlanta Intelligence.
-Necessario apenas para 3 funcoes especificas do sistema: boleto avulso,
-extrato e resultado de assembleia - documentos que o Newcon so entrega
-atraves de uma sessao de navegador logada de verdade.
+Este programa (`AtosAgenteLocal.exe`) foi **descontinuado e removido**. Ele foi substituido
+pela **extensao ATOS para o Chrome**, que faz tudo o que ele fazia (boleto, extrato,
+resultado de assembleia, coleta de historico e varredura do WhatsApp Leads) direto no
+navegador, sem instalar programa nem rodar nada em segundo plano.
 
-Este repositorio contem **apenas o executavel compilado**, nunca o
-codigo-fonte proprietario do sistema (que fica em repositorio privado).
+Para ativar a automacao, instale a extensao ATOS no Chrome e entre com o login do sistema
+(passo a passo na aba Conexoes, em https://atosintel.com).
 
-## Como usar
-
-1. Baixe o `AtlantaAgenteLocal.exe` na aba [Releases](../../releases).
-2. De um duplo clique nele.
-3. Na primeira vez, ele pede o ID da sua empresa e seu login do sistema -
-   depois disso, nao pergunta mais.
-4. Ele abre o Chrome de automacao sozinho e fica rodando em segundo plano.
-5. Deixe a janela aberta (pode minimizar) enquanto for usar boleto/extrato/
-   resultado de assembleia no site.
-
-Sem Python, sem instalacao de dependencias - o executavel ja vem com tudo.
+Este repositorio nao tem mais arquivos para baixar.
